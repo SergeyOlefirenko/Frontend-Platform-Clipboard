@@ -1,0 +1,134 @@
+/* *{
+    margin: 0;
+    padding:0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+} */
+/* .parent{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+
+}
+.child{
+    position: absolute;
+    box-sizing: border-box;
+    border: none;
+}
+.text-a{
+    color: rgb(91, 42, 165);
+}
+
+.text-b{
+    color: white;
+    background-color: green;
+    margin: 30px 490px;
+    border-radius: 5px;
+    padding: 5px 5px;
+
+}
+
+.text-c{
+    color: white;
+    background-color: blue;
+
+} */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Kolker+Brush&display=swap');
+
+
+* {
+   
+    padding: 0;
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
+   
+}
+/* ### Primary */
+
+/* - Strong Cyan: hsl(171, 66%, 44%)
+- Light Blue: hsl(233, 100%, 69%)
+
+### Neutral
+
+- Dark Grayish Blue: hsl(210, 10%, 33%)
+- Grayish Blue: hsl(201, 11%, 66%) */
+
+body {
+    height: 100vh;
+    width: 100vw;
+    font-size: 18px;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+header {
+   text-align: center;
+   height: 100%;
+   padding: 0 10;
+
+}
+
+.header-bg {
+    height: 40%;
+    background-image: url(/images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    height: 125px;
+    /* height: 60%;
+    width: 100%; */
+}
+
+h1{
+    text-align: center; 
+}
+
+p{
+    text-align: center;
+}
+.header-text{
+    margin: 0 5%;
+    height: 40%;
+    /* padding: 10% 0; */
+    /* background-color: teal; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+.title{
+    margin: 10% 0;
+}
+.header-buttons{
+    display: flex;
+    flex-direction: column;
+    /* width: 300px; */
+    height: 30%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* background-color: teal; */
+}
+button{
+    width: 300px;
+    border-radius: 20px;
+    padding: 15px 0;
+    box-shadow: 0px 2px 6px #333;
+}
+button:nth-child(1){
+    background-color: hsl(171, 66%, 44%);
+    box-shadow: 0px 2px 3px  hsl(171, 66%, 44%);
+}
+button:nth-child(2){
+    background-color: hsl(233, 100%, 69%);
+    box-shadow: 0px 2px 3px  hsl(233, 100%, 69%);
+}
